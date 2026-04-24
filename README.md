@@ -1,5 +1,5 @@
 # Predictive-Paradox
-# Hourly Electricity Demand Forecasting with XGBoost
+# Hourly Electricity Demand Forecasting
 
 A professional machine learning pipeline for **one-hour-ahead electricity demand forecasting** using **XGBoost**, built on nearly a decade of historical grid telemetry and weather data.
 
