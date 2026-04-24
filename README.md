@@ -6,18 +6,6 @@ A professional machine learning pipeline for **one-hour-ahead electricity demand
 This project focuses on forecasting `demand_mw` at time `t+1` using a robust classical tabular modeling approach. Beyond model training, the project emphasizes **real-world data cleaning, anomaly handling, temporal feature engineering, and leakage-free time-series evaluation**.
 
 
-## Performance
-
-The model performed strongly on the unseen 2024 test set.
-
-| Metric | Value |
-|--------|-------|
-| Mean Absolute Error (MAE) | **186.9 MW** |
-| Root Mean Squared Error (RMSE) | **262.3 MW** |
-| Mean Absolute Percentage Error (MAPE) | **1.69%** |
-
-These results indicate that the pipeline achieved high forecasting accuracy for a real-world electricity demand problem.
-
 ## Project Overview
 
 Electricity demand forecasting is a critical problem for grid planning and operational stability. This project develops a reliable forecasting pipeline that predicts hourly grid demand one hour ahead using historical demand signals and aligned weather data.
@@ -32,6 +20,19 @@ A major strength of the work lies in handling messy, real-world datasets. The pi
 - Merge electricity and weather datasets without temporal misalignment.
 - Engineer time-aware features while preventing data leakage.
 - Evaluate model performance on a strictly unseen chronological test set.
+
+  
+## Performance
+
+The model performed strongly on the unseen 2024 test set.
+
+| Metric | Value |
+|--------|-------|
+| Mean Absolute Error (MAE) | **186.9 MW** |
+| Root Mean Squared Error (RMSE) | **262.3 MW** |
+| Mean Absolute Percentage Error (MAPE) | **1.69%** |
+
+These results indicate that the pipeline achieved high forecasting accuracy for a real-world electricity demand problem.
 
 ## Dataset and Problem Setting
 
